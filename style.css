@@ -1,0 +1,147 @@
+h2,h1{
+    font-family: 'Caveat', cursive;   
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    text-decoration: none;
+}
+.banner{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-food-gastronomy-breakfast-tea-restaurant-banner-image_176818.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlay{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-size:xxx-large;
+    border-radius: 10px;
+    color: brown;
+    text-align: center;
+}
+.row{
+    width: 100%;
+    height: 300px;
+    /* background-color:orange; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.col{
+    background-color: lightblue;
+    width: 250px;
+    height: 280px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+h3{
+    padding: 20px;
+    background-color: azure;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    
+}
+.Chinese{
+    width: 100%;
+    height: 300px;
+    /* background-color:orange; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.col1
+{
+    background-color: lightblue;
+    width: 250px;
+    height: 280px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.indian{
+    width: 100%;
+    height: 300px;
+    /* background-color:orange; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.col2{
+    background-color: lightblue;
+    width: 250px;
+    height: 280px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+footer{
+    background-color: azure;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+#foot{
+    padding: 10px;
+    color:black;
+    text-align: center;
+}
+.col:hover{
+    background-color: gre;
+    width: 280px;
+    height: 290px;
+    box-shadow: 10px 10px 10px grey;
+}
+.col1:hover{
+    background-color: gre;
+    width: 280px;
+    height: 290px;
+    box-shadow: 10px 10px 10px grey;
+}
+.col2:hover{
+    background-color: gre;
+    width: 280px;
+    height: 290px;
+    box-shadow: 10px 10px 10px grey;
+}
+select{
+    background-color: azure;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    width: 160px;
+    padding: 10px;
+    justify-content: space-around;
+}
